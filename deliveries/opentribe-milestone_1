@@ -1,0 +1,64 @@
+# Milestone Delivery :mailbox:
+
+**The delivery is according to the official [milestone delivery guidelines](https://github.com/w3f/Grants-Program/blob/master/docs/Support%20Docs/milestone-deliverables-guidelines.md).**  
+
+* **Application Document:** Opentribe - Talent Layer for Polkadot Ecosystem
+* **Milestone Number:** 1
+
+**Context**
+
+This milestone delivers the MVP of Opentribe, a unified talent marketplace for the Polkadot ecosystem. The platform successfully bridges the gap between organizations seeking talent and skilled contributors looking for meaningful work. The MVP consolidates official Polkadot Grant opportunities and enables ecosystem projects to post and manage multi-winner bounties, providing immediate value to the ecosystem.
+
+**Deliverables**
+
+| Number | Deliverable | Link | Notes |
+| ------------- | ------------- | ------------- |------------- |
+| 0a. | License | [MIT License](https://github.com/opentribe-dao/opentribe/blob/main/LICENSE) | MIT License for all code and documentation |
+| 0b. | Documentation | [README](https://github.com/opentribe-dao/opentribe/blob/main/README.md)| Comprehensive documentation including setup, architecture, and development guides. Inline documentation throughout codebase. |
+| 0c. | Testing & Testing Guide | [Test Suite](https://github.com/opentribe-dao/opentribe/tree/main/apps/api/__tests__) | Unit tests for core modules including auth (auth.test.ts), bounties (bounties.test.ts), submissions (submissions.test.ts), and RFPs (rfps.test.ts). Run with `pnpm test` |
+| 0d. | Docker | [Dockerfile](https://github.com/opentribe-dao/opentribe/blob/main/Dockerfile), [docker-compose.yml](https://github.com/opentribe-dao/opentribe/blob/main/docker-compose.yml) | Complete Docker setup for running the entire stack (Next.js apps + PostgreSQL) |
+ | 0e. | Article | [Blog Post](https://github.com/opentribe-dao/opentribe/blob/main/BLOG_POST.md) | Article detailing MVP launch and integration guide for Polkadot projects |
+| 1. | Core Platform - Authentication | [Auth Package](https://github.com/opentribe-dao/opentribe/tree/main/packages/auth) | Better Auth integration with email, OAuth (Google, GitHub), and wallet support |
+| 2. | RFP Module | [RFP Routes](https://github.com/opentribe-dao/opentribe/tree/main/apps/api/app/api/v1/rfps), [RFP UI](https://github.com/opentribe-dao/opentribe/tree/main/apps/web/app/%5Blocale%5D/rfps) | Complete RFP creation, listing, voting, and commenting functionality |
+| 3. | Apply with RFP | [Grant Application](https://github.com/opentribe-dao/opentribe/blob/main/apps/web/app/%5Blocale%5D/grants/%5Bid%5D/apply/page.tsx) | Integration allowing RFPs to be referenced in grant applications |
+| 4. | Bounty Module | [Bounty API](https://github.com/opentribe-dao/opentribe/tree/main/apps/api/app/api/v1/bounties), [Bounty UI](https://github.com/opentribe-dao/opentribe/tree/main/apps/web/app/%5Blocale%5D/bounties) | Multi-winner bounty system with tiered rewards (winnings JSON structure) |
+| 5. | Grants Module | [Grant Routes](https://github.com/opentribe-dao/opentribe/tree/main/apps/api/app/api/v1/grants), [Grant UI](https://github.com/opentribe-dao/opentribe/tree/main/apps/web/app/%5Blocale%5D/grants) | Official Polkadot grants integration with application system |
+| 6. | Organization Dashboard | [Dashboard App](https://github.com/opentribe-dao/opentribe/tree/main/apps/dashboard) | Complete organization management dashboard for RFPs, bounties, and submissions |
+| 7. | Payment Integration | [Payment Model](https://github.com/opentribe-dao/opentribe/blob/main/packages/db/prisma/schema.prisma#L344-L368) | Polkadot wallet payout tracking system with Payment model and extrinsic hash support |
+| 8. | Frontend | [Web App](https://github.com/opentribe-dao/opentribe/tree/main/apps/web), [UI Package](https://github.com/opentribe-dao/opentribe/tree/main/packages/base) | Complete UI with glass morphism theme, Polkadot branding, and responsive design |
+| 9. | Initial Deployment | [Production Config](https://github.com/opentribe-dao/opentribe/tree/main) | Ready for Vercel deployment with environment configuration |
+
+**Additional Information**
+
+The MVP successfully implements all core features outlined in the milestone:
+
+**Key Technical Achievements:**
+- Turborepo monorepo architecture with 3 Next.js apps (web, dashboard, API)
+- PostgreSQL database with Prisma ORM and comprehensive schema
+- Better Auth integration supporting multiple authentication methods
+- Glass morphism UI design system
+- Full TypeScript implementation with strict mode
+- Comprehensive test suite with test files covering all core functionality
+- Docker support for easy local development and deployment
+
+**Feature Completeness:**
+- ✅ User authentication with wallet, email, and OAuth
+- ✅ Complete RFP lifecycle (create, list, vote, comment)
+- ✅ Multi-winner bounty system with tiered rewards
+- ✅ Grant application system with curator review
+- ✅ Organization dashboard for managing all entities
+- ✅ Profile system for builders and organizations
+- ✅ Comment and like functionality across all entities
+- ✅ Notification preferences and settings
+
+**Database Seeding:**
+The platform includes comprehensive seed data (`pnpm db:seed`) with:
+- 7 test users including builders and org admins
+- 4 organizations (Web3 Foundation, Moonbeam, Acala, Community DAO)
+- 4 grants, 3 bounties, 2 RFPs with realistic Polkadot ecosystem content
+- Sample applications, submissions, comments, and votes
+
+**Testing:**
+- Unit tests for authentication, bounty management, submission system, and RFP workflows
+- Test coverage for API endpoints and critical business logic
+- Mock Prisma setup for isolated testing
