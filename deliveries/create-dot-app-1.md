@@ -5,13 +5,13 @@
 * **Application Document:** [create-dot-app](https://github.com/PolkadotOpenSourceGrants/apply/blob/master/applications/create-dot-app.md)
 * **Milestone Number:** 1
 
-**Context** (optional)
-> Please provide a short paragraph or two connecting the deliverables in this milestone and describing their purpose.
+**Context**
+
+This milestone delivers the first usable version of Create Dot App, a scaffolding CLI for Polkadot dApps. It bootstraps React or Vue projects with your choice of PAPI or Dedot SDK, standardizing project structure and reducing setup time.
+
+The CLI includes an interactive generator, a template engine, minimal telemetry with opt‑out, and CI to validate templates across package managers. This foundation enables us to add more frameworks (e.g., Next.js/Nuxt/Svelte) in the next milestones.
 
 **Deliverables**
-> Please provide a list of all deliverables of the milestone extracted from the initial application and a link to the deliverable itself. Ideally all links inside the below table should include a commit hash, which will be used for testing. If you don't provide a commit hash, we will work off the default branch of your repository. Thus, if you plan on continuing work after delivery, we suggest you create a separate branch for either the delivery or your continuing work. 
-> 
-> If there is anything particular about any of the deliverables we or a future reader should know, use the respective `Notes` column.
 
 | Number | Deliverable | Link | Notes |
 | ------------- | ------------- | ------------- |------------- |
@@ -27,4 +27,5 @@
 | 5. | NPM Package Distribution | https://github.com/preschian/create-dot-app/blob/main/.github/workflows/release.yml | https://www.npmjs.com/package/create-dot-app?activeTab=readme |
 
 **Additional Information**
-> Any further comments on the milestone that you would like to share with us.
+
+Collaboration: Plan to work with Parity to add “community templates” as a CLI option. https://forum.polkadot.network/t/create-dot-app-the-scaffolding-tool-for-all-your-polkadot-dapp-ideas/14297/4?u=0xpresc
