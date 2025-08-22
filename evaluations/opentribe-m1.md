@@ -45,3 +45,18 @@ cd packages/db && pnpm db:seed:auth
 - frank.acala@example.com / password123 (Org Admin - Acala)
 - admin@opentribe.io / admin123 (Platform Superadmin)
 ```
+## UI
+
+Both the web app and dasbhboard works and it looks nice so far:
+
+<img width="1279" height="706" alt="ot0" src="https://github.com/user-attachments/assets/db2f847d-d83c-4449-b029-4792657417f7" />
+
+<img width="1279" height="706" alt="ot1" src="https://github.com/user-attachments/assets/df4edb18-aa2b-45e6-9a1a-3df68d760018" />
+
+<img width="1279" height="706" alt="ot2" src="https://github.com/user-attachments/assets/8844df1a-cc18-434e-8574-220781b11fc8" />
+
+<img width="1414" height="631" alt="ot4" src="https://github.com/user-attachments/assets/8bd07adc-3c18-43dc-8935-ae7d7401e5fd" />
+
+<img width="972" height="593" alt="ot3" src="https://github.com/user-attachments/assets/ece9a4cd-055d-4a53-a9b4-978fb358b567" />
+
+A few errors are dealing with rate limits, happy to ignore for now but maybe check for the next milestone.
