@@ -60,3 +60,28 @@ Both the web app and dasbhboard works and it looks nice so far:
 <img width="972" height="593" alt="ot3" src="https://github.com/user-attachments/assets/ece9a4cd-055d-4a53-a9b4-978fb358b567" />
 
 A few errors are dealing with rate limits, happy to ignore for now but maybe check for the next milestone.
+
+## Testing
+
+Unit tests are now passing (w/ fixes). Please consider improving coverage for next milestone:
+```ts
+ RUN  v3.2.4 /home/ubuntu/opentribe/apps/api
+
+stdout | __tests__/rfps.test.ts > RFP Flow > GET /api/v1/rfps/[id] > should return RFP details with votes and comments
+Fetching RFP with ID or slug: rfp-1
+
+ ✓ __tests__/rfps.test.ts (5 tests) 25ms
+ ✓ __tests__/unit/submissions.test.ts (5 tests) 28ms
+ ✓ __tests__/submissions.test.ts (5 tests) 27ms
+ ✓ __tests__/unit/auth.test.ts (4 tests) 11ms
+ ✓ __tests__/unit/bounties.test.ts (4 tests) 25ms
+ ✓ __tests__/bounties.test.ts (4 tests) 19ms
+ ✓ __tests__/auth.test.ts (4 tests) 9ms
+ ✓ __tests__/basic.test.ts (5 tests) 8ms
+ ✓ __tests__/health.test.ts (1 test) 8ms
+
+ Test Files  9 passed (9)
+      Tests  37 passed (37)
+   Start at  17:18:53
+   Duration  1.49s (transform 528ms, setup 174ms, collect 1.33s, tests 160ms, environment 3ms, prepare 955ms)
+```
