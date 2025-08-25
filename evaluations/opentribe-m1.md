@@ -1,8 +1,25 @@
 # Evaluation
 
-- **Status:** In Progress
+- **Status:** Accepted
 - **Application Document:** https://github.com/PolkadotOpenSourceGrants/apply/blob/master/applications/opentribe.md
 - **Milestone:** 1
+
+| Number | Deliverable | Accepted | Link | Notes |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| 0a. | License | <ul><li>[x] </li></ul> | [MIT License](https://github.com/opentribe-dao/opentribe/blob/main/LICENSE) |  |
+| 0b. | Documentation | <ul><li>[x] </li></ul> | [README](https://github.com/opentribe-dao/opentribe/blob/main/README.md)| Thorough docs |
+| 0c. | Testing & Testing Guide | <ul><li>[x] </li></ul> | [Test Suite](https://github.com/opentribe-dao/opentribe/tree/main/apps/api/__tests__) | All unit tests passing |
+| 0d. | Docker | <ul><li>[x] </li></ul> | [Dockerfile](https://github.com/opentribe-dao/opentribe/blob/main/Dockerfile), [docker-compose.yml](https://github.com/opentribe-dao/opentribe/blob/main/docker-compose.yml) | Complete Docker setup for running the entire stack (Next.js apps + PostgreSQL) |
+ | 0e. | Article | <ul><li>[x] </li></ul> | [Blog Post](https://github.com/opentribe-dao/opentribe/blob/main/BLOG_POST.md) |  |
+| 1. | Core Platform - Authentication | <ul><li>[x] </li></ul> | [Auth Package](https://github.com/opentribe-dao/opentribe/tree/main/packages/auth) | Everything working on the dev version |
+| 2. | RFP Module | <ul><li>[x] </li></ul> | [RFP Routes](https://github.com/opentribe-dao/opentribe/tree/main/apps/api/app/api/v1/rfps), [RFP UI](https://github.com/opentribe-dao/opentribe/tree/main/apps/web/app/%5Blocale%5D/rfps) |  |
+| 3. | Apply with RFP | <ul><li>[x] </li></ul> | [Grant Application](https://github.com/opentribe-dao/opentribe/blob/main/apps/web/app/%5Blocale%5D/grants/%5Bid%5D/apply/page.tsx) |  |
+| 4. | Bounty Module | <ul><li>[x] </li></ul> | [Bounty API](https://github.com/opentribe-dao/opentribe/tree/main/apps/api/app/api/v1/bounties), [Bounty UI](https://github.com/opentribe-dao/opentribe/tree/main/apps/web/app/%5Blocale%5D/bounties) |  |
+| 5. | Grants Module | <ul><li>[x] </li></ul> | [Grant Routes](https://github.com/opentribe-dao/opentribe/tree/main/apps/api/app/api/v1/grants), [Grant UI](https://github.com/opentribe-dao/opentribe/tree/main/apps/web/app/%5Blocale%5D/grants) |  |
+| 6. | Organization Dashboard | <ul><li>[x] </li></ul> | [Dashboard App](https://github.com/opentribe-dao/opentribe/tree/main/apps/dashboard) |  |
+| 7. | Payment Integration | <ul><li>[x] </li></ul> | [Payment Model](https://github.com/opentribe-dao/opentribe/blob/main/packages/db/prisma/schema.prisma#L344-L368) |  |
+| 8. | Frontend | <ul><li>[x] </li></ul> | [Web App](https://github.com/opentribe-dao/opentribe/tree/main/apps/web), [UI Package](https://github.com/opentribe-dao/opentribe/tree/main/packages/base) |  |
+| 9. | Initial Deployment | <ul><li>[x] </li></ul> | [Production Config](https://github.com/opentribe-dao/opentribe/tree/main) |  |
 
 # General Notes
 
