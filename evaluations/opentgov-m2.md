@@ -1,3 +1,21 @@
+# Evaluation
+
+- **Status:** Accepted
+- **Application Document:** https://github.com/PolkadotOpenSourceGrants/apply/blob/master/applications/opentgov.md
+- **Milestone:** 2
+
+**Deliverables**
+
+| Number | Deliverable | Accepted | Link |
+| ------------- | ------------- | ------------- | ------------- |
+| 0a. | License | <ul><li>[x] </li></ul> | https://github.com/ZelmaCorp/VotingTool/blob/milestone-1-and-2/LICENSE |
+| 0b. | Documentation | <ul><li>[x] </li></ul> | https://github.com/ZelmaCorp/VotingTool/blob/milestone-1-and-2/README.md |
+| 0c. | Testing and Testing Guide | <ul><li>[x] </li></ul> | https://github.com/ZelmaCorp/VotingTool/blob/milestone-1-and-2/TESTING.md |
+| 0d. | Docker | <ul><li>[x] </li></ul> | https://github.com/ZelmaCorp/VotingTool/blob/milestone-1-and-2/Dockerfile |
+| 0e. | Article | <ul><li>[x] </li></ul> | https://polkadothungary.net/2025/08/11/hungarian-polkadot-dao-voting-tool-milestone-1-complete/ |
+| 1. | Express backend that does proposal fetching | <ul><li>[x] </li></ul> | https://github.com/ZelmaCorp/VotingTool/tree/milestone-1-and-2 |
+| 2.  | Mimir integration | <ul><li>[x] </li></ul> | https://github.com/ZelmaCorp/VotingTool/tree/milestone-1-and-2 |
+
 # General Notes
 
 App successfully boots:
