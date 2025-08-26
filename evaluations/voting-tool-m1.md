@@ -18,6 +18,8 @@
 
 # General Notes
 
+The backend works and I am able to fetch OpenGov proposals. Mimir integration works.
+
 App successfully boots:
 ```ts
 npm start
