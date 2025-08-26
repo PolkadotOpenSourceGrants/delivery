@@ -1,8 +1,8 @@
 # Evaluation
 
 - **Status:** Accepted
-- **Application Document:** https://github.com/PolkadotOpenSourceGrants/apply/blob/master/applications/opentgov.md
-- **Milestone:** 2
+- **Application Document:** https://github.com/PolkadotOpenSourceGrants/apply/blob/master/applications/voting-tool.md
+- **Milestone:** 1
 
 **Deliverables**
 
