@@ -106,6 +106,14 @@ polkadot-voting-tool_1  | {"level":30,"time":"2025-08-25T20:33:52.220Z","pid":7,
 polkadot-voting-tool_1  | {"level":30,"time":"2025-08-25T20:33:52.224Z","pid":7,"hostname":"ea957530839f","service":"VotingTool","version":"1.3.0","subsystem":"app","version":"1.3.0","port":"3000","msg":"OpenGov Voting tool v1.3.0 is running on port 3000"}
 polkadot-voting-tool_1  | {"level":30,"time":"2025-08-25T20:33:52.253Z","pid":7,"hostname":"ea957530839f","service":"VotingTool","version":"1.3.0","subsystem":"mimir","msg":"No ready proposals found."}
 ```
+I'm able to run the test queries successfully:
+```ts
+{
+  "status": "healthy",
+  "timestamp": "2025-08-26T21:36:27.656Z",
+  "uptime": 87.125701516
+}
+```
 ## Testing
 
 ~~Some unit tests currently failing.~~ UPDATE: Grantee resolved tests, now all passing.
