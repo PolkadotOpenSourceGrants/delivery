@@ -29,12 +29,12 @@ Docs: https://methodfive.github.io/jot
 
 **Usage Examples Included**
 
-• Balance transfers (transfer all, transfer allow death, transfer keep alive). 
+- Balance transfers (transfer all, transfer allow death, transfer keep alive). 
 - Open gov voting (voting and removing vote). 
 - Multisig support (approvals). 
 - Parsing extrinsics. 
 - Receiving results of submitted extrinsic. 
-- Staking, Bonding more, chilling, nomination, rebounding, unbending, and paying out stakers, etc.. 
+- Staking, Bonding more, chilling, nomination, rebounding, unbending, and paying out stakers, etc.
 - System remarks. 
 - Several batch extrinsic examples. 
 - Working with ED25519 Wallets. 
@@ -42,7 +42,7 @@ Docs: https://methodfive.github.io/jot
 - Parsing Metadata. 
 - Querying account balances. 
 - Querying asset balances. 
-- Querying blocks, block events, etc.. 
+- Querying blocks, block events, etc.
 - Querying fee info. 
 - Querying finalized and best states. 
 - Querying nonce. 
