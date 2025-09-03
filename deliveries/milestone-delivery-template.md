@@ -8,6 +8,7 @@
 
 * **Application Document:** In the case of a public [Grants Program](https://github.com/w3f/Grants-Program) application, please provide a link to the merged contract (the `.md` file in the [applications](https://github.com/w3f/Grants-Program/tree/master/applications) directory). In the case of a private application, please provide the name of the project. 
 * **Milestone Number:** e.g. 1
+* **DOT Payment Address:** Please provide the payment beneficiary address
 
 **Context** (optional)
 > Please provide a short paragraph or two connecting the deliverables in this milestone and describing their purpose.
