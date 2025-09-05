@@ -4,6 +4,7 @@
 
 * **Application Document:** [create-dot-app](https://github.com/PolkadotOpenSourceGrants/apply/blob/master/applications/create-dot-app.md)
 * **Milestone Number:** 1
+* **DOT Payment Address:** `162RtNYMpw3beFFpJqvjXp2GLUEf7EkwL3aRGEKkggVKc3Gq`
 
 **Context**
 
