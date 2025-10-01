@@ -4,6 +4,7 @@
 
 * **Application Document:** [Polkadot Java SDK](https://github.com/PolkadotOpenSourceGrants/apply/blob/master/applications/polkadot-java-sdk.md)
 * **Milestone Number:** All milestones.
+* **DOT Payment Address:** `14zb7FpKGRCoW8SPezDHsMzqhGAuEn6Wjprf4j2Gn85dGVEh`
 
 **Context**
 
