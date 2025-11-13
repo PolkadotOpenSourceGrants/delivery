@@ -27,7 +27,7 @@ Milestone 1: Cross-chain asset swaps between Asset Hub, Hydration, Moonbeam, Bif
 |--------|-------------|------|-------|
 | 0a. | License | AGPL v3 | |
 | 0b. | Documentation | [README](https://github.com/swush-labs/swush-app/blob/swush-new-ui/README.md) | |
-| 0c. | Testing and Testing Guide | [Unit Tests](https://github.com/swush-labs/swush-app/blob/swush-new-ui/README.md#unit-tests) | |
+| 0c. | Testing and Testing Guide | [Setup Guide](https://github.com/swush-labs/swush-app/blob/swush-new-ui/README.md#getting-started) | Steps to setup the project and run the tests.|
 | 1. | Core router: cross chain swaps | [Core Router](https://github.com/swush-labs/swush-me-app/blob/swush-new-ui/apps/web/src/components/swap/hooks/useXcmSwapExecution.ts) | Core router is used to execute the swap with multiple hops with best rate and asset route across different chains and DEXes. |
 | 2. | Transaction tracker | [Transaction Tracker](https://github.com/swush-labs/swush-app/blob/swush-new-ui/apps/web/src/components/swap/hooks/useXcmSwapExecution.ts#L366-L445) | Transaction status is tracked and updated in the UI. |
 | 3. | Route selector and Total Fee Estimation | [Route Selector](https://github.com/swush-labs/swush-me-app/blob/swush-new-ui/apps/web/src/components/swap/hooks/useXcmRoute.ts) | Route selector is used to select the best route for the swap and total fee estimation across different chains and DEXes. |
