@@ -10,18 +10,28 @@
 * **Milestone Number:** e.g. 1
 * **DOT Payment Address:** Please provide the payment beneficiary address
 
-**Context** (optional)
-> This milestone delivers the first version of the Swush Dex Aggregator. It is a simple aggregator that allows users to swap tokens between different DEXes.
+**Context** 
+
+Milestone 1: Cross-chain asset swaps between Asset Hub, Hydration, Moonbeam, Bifrost finding the best rate and asset route comparing various DEXes like AssetHub, Hydration, Bifrost and Acala DEX with multi-wallet connectivity and fee estimation.
+
 
 **Deliverables**
-> Please provide a list of all deliverables of the milestone extracted from the initial application and a link to the deliverable itself. Ideally all links inside the below table should include a commit hash, which will be used for testing. If you don't provide a commit hash, we will work off the default branch of your repository. Thus, if you plan on continuing work after delivery, we suggest you create a separate branch for either the delivery or your continuing work. 
-> 
-> If there is anything particular about any of the deliverables we or a future reader should know, use the respective `Notes` column.
+- We are using Chopsticks for multi-network simulation to test the core functionality and transactions.
+- Fewer assets like DOT, USDC, USDT are enabled right now for testing purposes.
+- Network and assets are config based and can be easily extended to add more networks and assets.
 
 | Number | Deliverable | Link | Notes |
-| ------------- | ------------- | ------------- |------------- |
-| 1. | ... |...| ...| 
-| 2.  | ... |...| ...| 
+|--------|-------------|------|-------|
+| 0a. | License | AGPL v3 | |
+| 0b. | Documentation | | |
+| 0c. | Testing and Testing Guide | | |
+| 1. | Core router: cross chain swaps | | |
+| 2. | Transaction tracker | | |
+| 3. | Route selector and Total Fee Estimation | | |
+| 4. | Multi-wallet enablement | | |
+| 5. | Multi-network connection | | |
+| 6. | Transaction dry run | | |
+| 7. | Slippage protection | | |
 
 **Additional Information**
 > Any further comments on the milestone that you would like to share with us.
