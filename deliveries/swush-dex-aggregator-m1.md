@@ -24,7 +24,10 @@ Milestone 1: Cross-chain asset swaps between Asset Hub, Hydration, Moonbeam, Bif
 - If transaction fails due to issues like RPC timeout, please run the transaction again.
 - Fetching prices and transactions may take time to complete, as we are using chopsticks for simulation. So please wait a few seconds or minutes.
 
-**Github repo** : https://github.com/swush-labs/swush-app
+**Github repo**  
+
+https://github.com/swush-labs/swush-app
+
 
 
 | Number | Deliverable | Link | Notes |
