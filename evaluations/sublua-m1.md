@@ -1,6 +1,6 @@
 # Evaluation
 
-- **Status:** In Progress
+- **Status:** Accepted
 - **Application Document:** https://github.com/PolkadotOpenSourceGrants/apply/blob/master/applications/sublua.md
 - **Milestone:** 1
 
@@ -18,7 +18,30 @@
 
 # General Notes
 
-8 unit tests now passing after fix:
+Nice work! I was able to successfully run `make game` and `make example` to run the test scenarios. I was able to simulate the following game actions: 
+- In-game purchase: Magic Sword for 0.5 WND
+- Reward claiming: 0.2 WND earned
+- Player-to-player transfer: 0.1 WND sent
+
+The same player identity can generate addresses for Polkadot, Kusama, and Westend. 
+
+**All Use Cases Demonstrated:**
+- In-game item purchases via blockchain transfers
+- Reward distribution systems
+- Player-to-player trading/transfers
+- Cross-chain wallet compatibility
+
+**The example shows how games can integrate SubLua for Web3 features:**
+- Player wallet management
+- NFT/asset ownership
+- In-game economy with real tokens
+- Decentralized trading
+
+Note: Like the basic example, the original examples/game_integration.lua uses the outdated sdk.init module path and would need updating. Consider fixing for next milestone.
+
+## Tests
+
+8 unit tests now passing after fix, consider upping code coverage for next time:
 
 ```
 eval $(luarocks path --bin) && luajit test/run_tests.lua
