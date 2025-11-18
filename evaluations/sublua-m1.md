@@ -39,9 +39,17 @@ The same player identity can generate addresses for Polkadot, Kusama, and Westen
 
 Note: Like the basic example, the original examples/game_integration.lua uses the outdated sdk.init module path and would need updating. Consider fixing for next milestone.
 
+I was also able to run a few sample scripts to interact with substrate chains:
+
+```
+luajit query_treasury.lua
+luajit blockchain_explorer.lua  
+luajit game_wallet_demo.lua
+```
+
 ## Tests
 
-8 unit tests now passing after fix, consider upping code coverage for next time:
+8 unit tests now passing after fix, consider improving code coverage for next time:
 
 ```
 eval $(luarocks path --bin) && luajit test/run_tests.lua
