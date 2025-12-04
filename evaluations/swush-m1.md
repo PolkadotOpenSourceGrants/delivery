@@ -1,6 +1,6 @@
 # Evaluation
 
-- **Status:** In progress
+- **Status:** Accepted
 - **Application Document:** https://github.com/PolkadotOpenSourceGrants/apply/blob/master/applications/swush-dex-aggregator.md
 - **Milestone:** 1
 
@@ -8,14 +8,14 @@
 |--------|-------------|------|-------|-----------|
 | 0a. | License | <ul><li>[x] </li></ul> | AGPL v3 | |
 | 0b. | Documentation | <ul><li>[x] </li></ul> | [README](https://github.com/swush-labs/swush-app/blob/swush-new-ui/README.md) | |
-| 0c. | Testing and Testing Guide | <ul><li>[x] </li></ul> | [Setup Guide](https://github.com/swush-labs/swush-app/blob/swush-new-ui/README.md#getting-started) | |
-| 1. | Core router: cross chain swaps | <ul><li>[x] </li></ul> | [Core Router](https://github.com/swush-labs/swush-me-app/blob/swush-new-ui/apps/web/src/components/swap/hooks/useXcmSwapExecution.ts) | |
-| 2. | Transaction tracker | <ul><li>[x] </li></ul> | [Transaction Tracker](https://github.com/swush-labs/swush-app/blob/swush-new-ui/apps/web/src/components/swap/hooks/useXcmSwapExecution.ts#L366-L445) |  |
-| 3. | Route selector and Total Fee Estimation | <ul><li>[x] </li></ul> | [Route Selector](https://github.com/swush-labs/swush-me-app/blob/swush-new-ui/apps/web/src/components/swap/hooks/useXcmRoute.ts) | | 
-| 4. | Multi-wallet enablement | <ul><li>[x] </li></ul> | [Multi-wallet Enablement](https://github.com/swush-labs/swush-me-app/blob/swush-new-ui/apps/web/src/components/wallet) | |
-| 5. | Multi-network connection | <ul><li>[x] </li></ul> | [Multi-network Connection](https://github.com/swush-labs/swush-app/blob/swush-new-ui/apps/web/src/components/swap/hooks/useXcmSwapExecution.ts#L332-L446) |  |
-| 6. | Transaction dry run | <ul><li>[x] </li></ul> | [Paraspell SDK Integration](https://github.com/swush-labs/swush-app/blob/swush-new-ui/apps/web/src/components/swap/hooks/useXcmSwapExecution.ts#L366-L483) |  |
-| 7. | Slippage protection | <ul><li>[x] </li></ul> | [Slippage storage](https://github.com/swush-labs/swush-me-app/blob/swush-new-ui/apps/web/src/components/swap/utils/slippageStorage.ts) |  |
+| 0c. | Testing and Testing Guide | <ul><li>[x] </li></ul> | [Setup Guide](https://github.com/swush-labs/swush-app/blob/swush-new-ui/README.md#getting-started) | Good docs in readme but could use some user-facing docs :)|
+| 1. | Core router: cross chain swaps | <ul><li>[x] </li></ul> | [Core Router](https://github.com/swush-labs/swush-me-app/blob/swush-new-ui/apps/web/src/components/swap/hooks/useXcmSwapExecution.ts) | Works as expected. |
+| 2. | Transaction tracker | <ul><li>[x] </li></ul> | [Transaction Tracker](https://github.com/swush-labs/swush-app/blob/swush-new-ui/apps/web/src/components/swap/hooks/useXcmSwapExecution.ts#L366-L445) | Works as expected. |
+| 3. | Route selector and Total Fee Estimation | <ul><li>[x] </li></ul> | [Route Selector](https://github.com/swush-labs/swush-me-app/blob/swush-new-ui/apps/web/src/components/swap/hooks/useXcmRoute.ts) | Works as expected.| 
+| 4. | Multi-wallet enablement | <ul><li>[x] </li></ul> | [Multi-wallet Enablement](https://github.com/swush-labs/swush-me-app/blob/swush-new-ui/apps/web/src/components/wallet) | Works as expected.|
+| 5. | Multi-network connection | <ul><li>[x] </li></ul> | [Multi-network Connection](https://github.com/swush-labs/swush-app/blob/swush-new-ui/apps/web/src/components/swap/hooks/useXcmSwapExecution.ts#L332-L446) | Works as expected. |
+| 6. | Transaction dry run | <ul><li>[x] </li></ul> | [Paraspell SDK Integration](https://github.com/swush-labs/swush-app/blob/swush-new-ui/apps/web/src/components/swap/hooks/useXcmSwapExecution.ts#L366-L483) | Works as expected. |
+| 7. | Slippage protection | <ul><li>[x] </li></ul> | [Slippage storage](https://github.com/swush-labs/swush-me-app/blob/swush-new-ui/apps/web/src/components/swap/utils/slippageStorage.ts) | Slippage works properly. |
 
 # General Notes
 
