@@ -128,6 +128,8 @@ npm warn deprecated @substrate/connect@0.8.11: versions below 1.x are no longer 
 
 I'm able to run the app in my browser locally. Everything works really well, can connect and swap between Hydration, BiFrost, and Asset Hub.
 
+<img width="516" height="594" alt="swush" src="https://github.com/user-attachments/assets/7c27356c-63af-4ed9-a22c-4f5e184d2aa5" />
+
 ## Testing
 
 Tests all passing:
