@@ -127,3 +127,14 @@ npm warn deprecated @substrate/connect@0.8.11: versions below 1.x are no longer 
 </details>
 
 I'm able to run the app in my browser locally. Everything works really well, can connect and swap between Hydration, BiFrost, and Asset Hub.
+
+## Testing
+
+Tests all passing:
+```
+Test Suites: 6 passed, 6 total
+Tests:       53 passed, 53 total
+Snapshots:   0 total
+Time:        6.133 s
+Ran all test suites.
+```
