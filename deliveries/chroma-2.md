@@ -35,9 +35,8 @@ What sets Chroma apart from existing E2E wallet testing solutions:
 **E2E Testing Coverage**
 
 All API interfaces between Polkadot.js Extension and Talisman are covered with E2E testing, including:
-- Polkadot.js Extension → Substrate account
-- Talisman → Substrate account
-- Talisman → Ethereum account
+- [Polkadot.js Extension & Talisman → Substrate account](https://github.com/avalix-labs/chroma/blob/c18a42dc1fca7413272ef2518fa16dfdecc6b9fa/packages/e2e-polkadot-js/tests/polkadot.spec.ts)
+- [Talisman → Ethereum account](https://github.com/avalix-labs/chroma/blob/c18a42dc1fca7413272ef2518fa16dfdecc6b9fa/packages/e2e-evm/tests/example.spec.ts)
 
 You can verify the tests by running the following Docker commands:
 
