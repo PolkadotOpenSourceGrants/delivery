@@ -12,16 +12,15 @@
 | 5. | Talisman Account Import (Ethereum) | <ul><li>[x] </li></ul> | `chroma/packages/chroma/src/wallets/talisman.ts`, `chroma/packages/e2e-evm/tests/example.spec.ts` | Ethereum private-key import implemented and exercised in Docker E2E (passed). |
 | 6. | Talisman Authorization (Ethereum) | <ul><li>[x] </li></ul> | `chroma/packages/chroma/src/wallets/talisman.ts`, `chroma/packages/e2e-evm/tests/example.spec.ts` | Authorization flow implemented and exercised in Docker E2E (passed). |
 | 7. | Talisman Transaction Management (Ethereum) | <ul><li>[x] </li></ul> | `chroma/packages/chroma/src/wallets/talisman.ts`, `chroma/packages/e2e-evm/tests/example.spec.ts` | Approve/reject flows implemented and exercised in Docker E2E (passed). |
-| 8. | Multi-chain Testing Utilities | <ul><li>[ ] </li></ul> | `chroma/packages/e2e-evm/src/components/Connect.vue` | App-level chain selector UI and `switchChainAsync` were added, but the application requires library-level utilities or documented helpers for multi-chain testing. The current update does not introduce library utilities or a documented test recipe, so the deliverable remains incomplete. |
+| 8. | Multi-chain Testing Utilities | <ul><li>[ ] </li></ul> | https://chroma-docs.up.railway.app/docs/guides/multi-chain, `chroma/packages/e2e-evm/src/components/Connect.vue`, `chroma/packages/e2e-evm/tests/example.spec.ts` | A multi-chain guide now exists and the EVM app includes a chain selector UI, but there are still no library-level utilities and the E2E test does not include a chain-switch rejection case. This falls short of the multi-chain utilities deliverable as specified. |
 | 9. | Documentation/Landing Page Website | <ul><li>[x] </li></ul> | https://chroma-docs.up.railway.app/docs | Documentation site is live and accessible. |
 
 **Additional notes**
 - Docker E2E runs succeeded for both `E2E_TARGET=polkadot-js` and `E2E_TARGET=evm` (1 test each).
 - Wallet interaction functions in `talisman.ts` are excluded from unit coverage (`c8 ignore`) and rely on E2E validation only.
+- The multi-chain guide documents rejection/approval flows, but the current `e2e-evm` test only approves the chain switch; no rejection path is asserted in code.
 - E2E coverage is currently limited to single happy‑path tests; expanding error/edge-case coverage (including chain switching) would strengthen confidence.
 
 **Requested follow-ups**
-1. Provide library-level multi-chain testing utilities (e.g., helper that wraps chain switching + wallet confirmation), or explicitly document and publish a supported recipe in the Chroma docs and test matrix that demonstrates how to do multi-chain testing with the existing API.
-2. Add E2E tests that validate chain switching (e.g., switch from Paseo Asset Hub to Moonbase Alpha and confirm wallet approval flow), including a failure case or rejected switch.
-
-
+1. Provide library-level multi-chain testing utilities (e.g., helper that wraps chain switching + wallet confirmation), or explicitly document why app-level guides are sufficient for the deliverable.
+2. Update the E2E test to cover the chain-switch rejection case shown in the docs.
